@@ -1,0 +1,28 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "mMovie API with Graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junohera/graphqltest.git"
+  },
+  "keywords": [
+    "graphql",
+    "node"
+  ],
+  "author": "juno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junohera/graphqltest/issues"
+  },
+  "homepage": "https://github.com/Junohera/graphqltest#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.1"
+  }
+}
