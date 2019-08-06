@@ -16,6 +16,18 @@ export const people = [
         name: "test22",
         age: 21,
         gender: "male"
+    },
+    {   
+        id: 3,
+        name: "leon",
+        age: 444,
+        gender: "male"
+    },
+    {   
+        id: 4,
+        name: "jane",
+        age: 212,
+        gender: "female"
     }
 ];
 
