@@ -1,11 +1,12 @@
-type Person{
-    id: Int!
+type User{
+    userId: Int!
     name: String!
     age: Int!
     gender: String!
 }
 
 type Query {
-    people: [Person]!
-    person(id: Int!): Person
+    users: [User]!
+    user(id: Int!): User
+    getDbPeople: [User]!
 }
